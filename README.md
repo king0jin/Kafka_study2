@@ -54,3 +54,9 @@ YAML파일이 있는 디렉토리 위치에서 명령을 실행해야한다
 ![image](https://github.com/user-attachments/assets/6940affa-3e73-4d08-99b0-96c325e6aa5f)
 ---
 ## Spring Boot에서 Kafka사용 
+**먼저, java application Runtime과 Development Kit확인을 해야한다**
++ java -version
++ javac -version
++ Spring Framework IDE 설치 : IntelliJ
+  + Spring Boot Project 생성
+  + 의존성 추가 : 
