@@ -54,9 +54,28 @@ YAML파일이 있는 디렉토리 위치에서 명령을 실행해야한다
 ![image](https://github.com/user-attachments/assets/6940affa-3e73-4d08-99b0-96c325e6aa5f)
 ---
 ## Spring Boot에서 Kafka사용 
-**먼저, java application Runtime과 Development Kit확인을 해야한다**
+1. java application Runtime과 Development Kit확인
 + java -version
 + javac -version
-+ Spring Framework IDE 설치 : IntelliJ
-  + Spring Boot Project 생성
-  + 의존성 추가 : 
+
+2. Spring Framework IDE 설치 : IntelliJ
++ Spring Boot Project 생성
+  + 의존성 추가 : Lombok, Spring Boot DevTools, Spring Web, Spring Apach Kafka
+
+3. resources 디렉토리의 application.properties파일을 삭제, yaml파일 생성하여 작성
+**Spring Boot에서 Kafka사용을 설정하기 위해서는 yaml파일이 필요하다**
+
+4. KafkaConfiguration Class생성 - 환경 설정 클래스
+5. KafkaProducer Class생성 - 메세지 송신 서비스 클래스
+6. 전송한 메세지를 수신할 때 메세지를 JSON형식으로 파싱하기위한 의존성 추가
++ build.gradle : dependencies에 의존성 추가
+  + build.gradle파일을 수정하면 재빌드를 해주어야 반영이된다
+7. KafkaConsumer Class생성 - 메세지 수신 서비스 클래스
+8. KafkaController Class생성 - 사용자의 요청을 처리하는 클래스
+
+### 실행 
+#### 송신
+![image](https://github.com/user-attachments/assets/41691c86-33b2-4695-a48f-d63a12da6313)
+
+#### 수신
+![image](https://github.com/user-attachments/assets/defca015-085d-4c85-87d7-dcde4b76cb83)
