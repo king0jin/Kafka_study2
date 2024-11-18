@@ -78,4 +78,5 @@ YAML파일이 있는 디렉토리 위치에서 명령을 실행해야한다
 ![image](https://github.com/user-attachments/assets/41691c86-33b2-4695-a48f-d63a12da6313)
 
 #### 수신
++ 새로운 CMD창에서 실행
 ![image](https://github.com/user-attachments/assets/defca015-085d-4c85-87d7-dcde4b76cb83)
