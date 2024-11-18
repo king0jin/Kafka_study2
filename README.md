@@ -53,6 +53,8 @@ YAML파일이 있는 디렉토리 위치에서 명령을 실행해야한다
 
 ![image](https://github.com/user-attachments/assets/6940affa-3e73-4d08-99b0-96c325e6aa5f)
 ---
+
+
 ## Spring Boot에서 Kafka사용 
 1. java application Runtime과 Development Kit확인
 + java -version
@@ -79,4 +81,6 @@ YAML파일이 있는 디렉토리 위치에서 명령을 실행해야한다
 
 #### 수신
 + 새로운 CMD창에서 실행
+
+
 ![image](https://github.com/user-attachments/assets/defca015-085d-4c85-87d7-dcde4b76cb83)
